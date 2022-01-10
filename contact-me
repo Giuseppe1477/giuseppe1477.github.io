@@ -1,0 +1,33 @@
+---
+layout: page
+title: "Contact Me"
+permalink: /contact-me/
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>e
+  </head>
+  <body>
+    <h1>Contact Me</h1>
+    <p>
+      Here is a mailto link to my email:
+      <a href="mailto:celentano.joseph@student.ccm.edu?Subject=Add%20Subject" target="_top">
+      Send E-Mail</a>
+    </p>
+    <p>Or you can copy my email my clicking the button below</p>
+    <script>
+      function myFunction() {
+        var copyText = document.getElementById("myInput");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /* For mobile devices */
+        navigator.clipboard.writeText(copyText.value);
+        alert("Copied the text: " + copyText.value);
+      }
+    </script>
+    <input type="text" value="celentano.joseph@student.ccm.edu" id="myInput">
+    <button onclick="myFunction()">Copy text</button>
+  </body>
+</html>
