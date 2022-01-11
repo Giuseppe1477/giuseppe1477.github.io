@@ -1,9 +1,3 @@
 theme: jekyll-theme-slate
 title: Giuseppe Celentano Portfolio
 author: Giuseppe Celentano
-navbar-links:
-  Contact Me: "contact-me"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Homepage: "/"
