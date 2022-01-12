@@ -309,7 +309,6 @@ a.buttonsOrg {
 
 a.buttonsTall {
 	-webkit-font-smoothing: antialiased;
-	background: url(../images/arrow-down.png) no-repeat;
 	font-weight: normal;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
 	padding: 2px 2px 2px 22px;
@@ -321,15 +320,15 @@ a.github {
 }
 
 a.homepage {
-	background: url(../images/resumePicResize.png) no-repeat 1px;
+	background: url(/images/homepagePic.png) no-repeat 1px;
 }
 
 a.contactMe {
-	background: url(/images/resumePicResize.png) no-repeat 1px;
+	background: url(/images/contactMePic.png) no-repeat 1px;
 }
 
 a.myResume {
-	background: url('images/resumePicResize.png') no-repeat 1px;
+	background: url(/images/resumePic.png) no-repeat 1px;
 }
 
 a.buttonsOrg:hover {
