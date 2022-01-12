@@ -321,15 +321,15 @@ a.github {
 }
 
 a.homepage {
-	background: url(/images/homepagePic.png) no-repeat 1px;
+	background: url(../images/homepagePic.png) no-repeat 1px;
 }
 
 a.contactMe {
-	background: url(/images/contactMePic.png) no-repeat 1px;
+	background: url('/images/contactMePic.png') no-repeat 1px;
 }
 
 a.myResume {
-	background: url(/images/resumePic.png) no-repeat 1px;
+	background: url(images/resumePic.png) no-repeat 1px;
 }
 
 a.buttonsOrg:hover {
