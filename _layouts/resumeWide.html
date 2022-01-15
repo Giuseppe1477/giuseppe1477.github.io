@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <style>
+      section {
+        width: 950px; 
+      }
+    </style>
+
+{% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
+        <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
+
+        <ul>
+          {% if site.show_downloads %}
+            <li class="download"><a class="buttonsOrg" href="{{ site.github.zip_url }}">Download ZIP</a></li>
+            <li class="download"><a class="buttonsOrg" href="{{ site.github.tar_url }}">Download TAR</a></li>
+          {% endif %}
+          <li><a class="buttonsOrg homepage" href="/">&emsp; &emsp; Homepage</a></li>
+          <li><a class="buttonsOrg projects" href="/my-projects/">&emsp; &ensp; My Projects</a></li>
+          <li><a class="buttonsOrg myResume" href="/resume/">&emsp; &emsp; &emsp; Resume</a></li>
+          <li><a class="buttonsOrg contactMe" href="/contact-me/">&emsp; &emsp; Contact Me</a></li>
+        </ul>
+
+          <p class="header">This website is maintained by <a class="header name" href="{{ site.github.owner_url }}">Giuseppe Celentano</a></p>
+
+      </header>
+
+      <section>
+        {{ content }}
+      </section>
+
+      <footer>
+        <p><img src="/images/homepageLogo.png" alt="Logo" style="width:140px;height:153px;"></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+  </body>
+</html>
