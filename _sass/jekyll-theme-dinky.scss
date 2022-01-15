@@ -70,7 +70,7 @@ body navButton:hover {
   background: linear-gradient(to top, #0A6B94 0%,#095D81 100%);
 }
 
-a.navButtonText {
+body a.navButtonText {
 	-webkit-font-smoothing: antialiased;
 	font-weight: normal;
 	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
@@ -78,7 +78,7 @@ a.navButtonText {
 	height: 30px;
 }
 
-body thinLine {
+body a.thinLine {
 	display: block;
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 5px;
