@@ -9,16 +9,17 @@ permalink: /contact-me/
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <style type="text/css">
-    .linkedIn {
-      margin-bottom: 10px;
-      width: 60px;
-      height:60px;
-      display:block;
-      text-decoration:none;
-      background-image: url(/images/linkedInIcon.png);
+    a img.hover {
+      display: none;
     }
-    .linkedIn:hover {
-      background-image: url(/images/linkedInDark.png);
+    a img.default {
+      display: inherit;
+    }
+    a:hover img.hover {
+      display: inherit;
+    }
+    a:hover img.default {
+      display: none;
     }
       
     .buttonLink {
@@ -37,6 +38,10 @@ permalink: /contact-me/
       Phone Number: 973-945-9616<br>
       <p class="thinLine"></p>
     </p>
-    <a href="https://www.linkedin.com/in/giuseppe-celentano/" class="linkedIn" title="LinkedIn" target="_blank" style="cursor:pointer;"></a>
+    <a href="https://www.linkedin.com/in/giuseppe-celentano/" class="linkedIn" title="LinkedIn" target="_blank" style="cursor:pointer;">
+      <img class="default" src="linkedInIcon.png"/>
+      <img class="hover" src="linkedInDark.png"/>
+      <span></span>
+    </a>
   </body>
 </html>
