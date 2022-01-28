@@ -527,6 +527,30 @@ footer {
 	footer a{
 		display:block;
 	}
+	
+	header a.buttonsOrg {
+	-webkit-font-smoothing: antialiased;
+	font-weight: normal;
+	text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
+	padding: 2px 2px 2px 2px;
+	height: 30px;
+	}
+	
+	header a.homepage {
+		background: url(/images/homepagePic.png) no-repeat 1px;
+	}
+
+	header a.contactMe {
+		background: url(/images/contactMePic.png) no-repeat 1px;
+	}
+
+	header a.myResume {
+		background: url(/images/resumePic.png) no-repeat 1px;
+	}
+
+	header a.projects {
+		background: url(/images/projectsPic.png) no-repeat 1px;
+	}
 
 }
 
