@@ -484,6 +484,11 @@ footer {
     padding:20px 84px 20px 50px;
     margin:0 0 20px;
   }
+	
+  sectionWide {
+    padding:20px 84px 20px 50px;
+    margin:0 0 20px;
+  }
 
   header a small {
     display:inline;
@@ -506,14 +511,19 @@ footer {
 		margin-right: 0;
   }
 
-	section {
+  section {
+    padding:10px 0 10px 20px;
+    margin:0 0 30px;
+  }
+	
+  sectionWide {
     padding:10px 0 10px 20px;
     margin:0 0 30px;
   }
 
-	footer {
-		margin: 0 0 0 30px;
-	}
+  footer {
+  	margin: 0 0 0 30px;
+  }
 
   header ul, header p.view {
     position:static;
