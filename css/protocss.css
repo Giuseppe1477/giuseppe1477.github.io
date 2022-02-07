@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-  background: #FF6067;
+  background: #800000;
   color: white;
   padding: 0.625em;
 }
@@ -171,7 +171,7 @@ h3 {
 }
 .columns .item:hover, .columns .item:focus {
   background: #e8f4fa;
-  border-bottom-color: #FF6067;
+  border-bottom-color: #800000;
 }
 .columns .item:hover .social, .columns .item:focus .social {
   position: absolute;
@@ -181,7 +181,7 @@ h3 {
   padding: 10px 0;
 }
 .columns .item:hover .social .fa, .columns .item:focus .social .fa {
-  color: #FF6067;
+  color: #800000;
   padding: 0 0.3125em;
 }
 .columns .item:hover .social .fa:hover, .columns .item:focus .social .fa:hover {
@@ -217,7 +217,7 @@ h3 {
 }
 
 .footer {
-  background: #FF6067;
+  background: #800000;
   color: white;
   padding: 0.9375em;
   text-align: center;
