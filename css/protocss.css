@@ -1,5 +1,5 @@
 body {
-  background: #D7F7FE;
+  background: #fbfaf7;
   font-family: "Nunito", sans-serif;
   color: #222;
 }
@@ -60,7 +60,7 @@ h3 {
 }
 
 .main-nav {
-  background: #F7EE1A;
+  background: #5d8ebe;
   color: white;
 }
 .main-nav a {
@@ -155,7 +155,7 @@ h3 {
   max-width: 47%;
   background: #b1dbf0;
   color: #1A577F;
-  border-bottom: 5px solid #F7EE1A;
+  border-bottom: 5px solid #5d8ebe;
   margin-bottom: 2.1875em;
   position: relative;
   overflow: hidden;
@@ -224,7 +224,7 @@ h3 {
   font-size: 0.8125em;
 }
 .footer a {
-  color: #F7EE1A;
+  color: #5d8ebe;
   text-decoration: none;
   border-bottom: 1px solid;
 }
