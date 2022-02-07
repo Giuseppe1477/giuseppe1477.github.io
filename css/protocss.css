@@ -64,7 +64,7 @@ h3 {
   color: white;
 }
 .main-nav a {
-  color: #1A577F;
+  color: #f7f7f7;
   text-decoration: none;
 }
 .main-nav ul, .main-nav li {
@@ -131,13 +131,6 @@ h3 {
   .full-bleed {
     min-height: 175px;
   }
-}
-.cool-photo {
-  background-image: url(http://lorempixel.com/1300/400/abstract);
-}
-
-.cool-photo2 {
-  background-image: url(http://lorempixel.com/1300/400/food);
 }
 
 .post {
